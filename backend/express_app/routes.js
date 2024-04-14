@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { ensureAuthenticated } = require('../middleware/auth'); // Will build authentication middleware
+const { ensureAuthenticated } = require('../middleware/auth.js');
 
 // Home route
 router.get('/', (req, res) => {
